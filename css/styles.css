@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: linear-gradient(145deg,whitesmoke, darkgray);
+}
+
+ul {
+    list-style: none;
+}
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: -200px auto 0 auto;
+}
+.payment-one-section {
+    width: 85%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.705);
+    border-radius: 25px;
+    position: relative;
+    top: 250px;
+    box-shadow: lightgray 0 56px 66px 2px;
+}
+.fees-title-section {
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px 0 70px 3rem;
+    position: relative;
+    top: 260px;
+    box-sizing: border-box;
+}
+.fees-title-section span {
+    font-size: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    right: 15px;
+}
+.title-amount span {
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    right: 15px;
+}
+.fees-title-section h1 {
+    font-size: 40px;
+}
+.amount-payment span {
+    font-size: 60px
+}
+.fees-icons {
+    font-size: 40px;
+}
+.amount-payment-section {
+    width: 100%;
+    margin: 0 auto;
+}
+.amount-payment {
+    padding: 15px 0 30px 3rem;
+    border-bottom: 3px solid darkgray;
+}
+.amount-payment .title-amount{
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 34px;
+    padding: 15px 0 40px 0;
+    opacity: 0.5;
+}
+.amount-paid-title {
+    padding: 0 0 15px 0;
+}
+.amount-number {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 44px;
+    opacity: 0.5;
+}
+.amount-paid-title h2 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 24px;
+    color: darkgray;
+}
+.outstanding-payment {
+    height: 150px;
+}
+.outstanding-amount {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 44px;
+    color: crimson;
+    opacity: 0.5;
+}
+.paid-amount ul {
+    list-style: none;
+}
+.outstanding-payment-section {
+    width: 100%;
+    margin: 0 auto;
+}
+.outstanding-payment {
+    padding: 15px 0 0 3rem;
+}
+.outstanding-payment-title {
+    padding: 0 0 15px 0;
+}
+.outstanding-payment-title h2 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 24px;
+}
+.payment-items-section {
+    width: 95%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.705);
+    border-radius: 20px;
+    padding: 250px 95px 0px 95px;
+    box-sizing: border-box;
+}
+.compulsory-items-section h2 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 34px;
+    padding: 60px 0 45px 0;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+.compulsory-items-listone {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+.checkboxes {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 6px;
+    bottom: 8px;
+    right: 5px;
+}
+.compulsory-items-listone strong {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 34px;
+    opacity: 0.5;
+}
+.compulsory-items-listone span:nth-child(2) {
+    position: relative;
+    top: 6px;
+    bottom: 8px;
+    right: 5px;
+}
+.accomodation-summary-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.total-payment-acccomodation-section {
+   padding-bottom: 30px;
+}
+.total-payment-acccomodation-section h2 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 24px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.total-payment-acccomodation-section p {
+    font-size: 24px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', Arial, sans-serif;
+    
+}
+.payment-button button {
+    width: 90%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px;
+    border-radius: 20px;
+    background: linear-gradient(200deg, blueviolet, crimson);
+}
+.payment-button p {
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    right: 5px;
+}
+.payment-button span {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.payment-button-press {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 798px) {
+    .title-amount span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 778px) {
+    .amount-payment .title-amount {
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 26px;
+        padding: 15px 0 40px 0;
+        opacity: 0.5;
+        text-align: center;
+    }
+    .compulsory-items-listone {
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .accomodation-summary-list {
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .payment-button button {
+            width: 90%;
+            padding: 15px 0;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            box-shadow: 3px 3px;
+            border-radius: 20px;
+            background: linear-gradient(200deg, blueviolet, crimson);
+        }
+    
+        .payment-button p {
+            font-size: 20px;
+            position: relative;
+            top: 15px;
+            right: 5px;
+        }
+    
+        .payment-button span {
+            font-size: 40px;
+            font-weight: bolder;
+        }
+    
+        .payment-button-press {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .checkboxes {
+            width: 25px;
+            height: 25px;
+            position: relative;
+            top: 3px;
+            bottom: 6px;
+            right: 5px;
+        }
+        
+        .compulsory-items-listone strong {
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 26px;
+            opacity: 0.5;
+        }
+
+        .compulsory-items-listone span:nth-child(2) {
+            position: relative;
+            top: 4px;
+            bottom: 6px;
+            right: 5px;
+        }
+        .compulsory-items-section h2 {
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 28px;
+            padding: 60px 0 45px 0;
+            box-sizing: border-box;
+            opacity: 0.5;
+        }
+        .total-payment-acccomodation-section h2 {
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 18px;
+            padding: 20px 0;
+            box-sizing: border-box;
+        }
+
+        .total-payment-acccomodation-section p {
+            font-size: 18px;
+            padding-bottom: 30px;
+            font-family: 'Roboto', Arial, sans-serif;
+
+        }
+
+}
